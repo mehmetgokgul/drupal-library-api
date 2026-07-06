@@ -1,0 +1,39 @@
+# Composer-managed dependencies (rebuildable via `composer install`).
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/profiles/contrib/
+/web/themes/contrib/
+/web/libraries/
+/drush/Commands/contrib/
+
+# Site configuration that may contain sensitive information.
+/web/sites/*/settings.local.php
+/web/sites/*/settings.*.php
+!/web/sites/*/default.settings.php
+!/web/sites/*/settings.ddev.php
+/web/sites/*/services.yml
+!/web/sites/*/default.services.yml
+
+# User-generated / uploaded content.
+/web/sites/*/files
+/web/sites/*/private
+
+# SimpleTest multi-site test directory.
+/web/sites/simpletest
+
+# DDEV local overrides and generated artifacts not meant to be shared.
+/.ddev/.dbimageBuild
+/.ddev/.webimageBuild
+/.ddev/db_snapshots
+/.ddev/xhprof/xhprof.out.*
+
+# Composer.
+composer.phar
+
+# OS / editor cruft.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
