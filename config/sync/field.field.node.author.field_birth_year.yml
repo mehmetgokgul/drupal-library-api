@@ -1,0 +1,23 @@
+uuid: b4204452-a2a2-4e10-af43-bb7967af9eb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_birth_year
+    - node.type.author
+id: node.author.field_birth_year
+field_name: field_birth_year
+entity_type: node
+bundle: author
+label: 'Birth Year'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1000
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

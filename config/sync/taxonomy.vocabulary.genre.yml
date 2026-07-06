@@ -1,0 +1,9 @@
+uuid: 9734c58f-2c40-47ec-ad07-d56633c6a6ef
+langcode: en
+status: true
+dependencies: {  }
+name: Genre
+vid: genre
+description: 'Shared genre classification for books and movies'
+weight: 0
+new_revision: false

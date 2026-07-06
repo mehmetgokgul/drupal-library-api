@@ -1,0 +1,20 @@
+uuid: ee02adce-8e2b-4363-bd72-b5fc164f287c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_birth_year
+field_name: field_birth_year
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
