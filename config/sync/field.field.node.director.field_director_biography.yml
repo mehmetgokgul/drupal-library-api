@@ -1,0 +1,22 @@
+uuid: b75e92f9-ce2f-4c40-84df-c075bdacc396
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_director_biography
+    - node.type.director
+  module:
+    - text
+id: node.director.field_director_biography
+field_name: field_director_biography
+entity_type: node
+bundle: director
+label: Biography
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

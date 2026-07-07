@@ -1,0 +1,29 @@
+uuid: 5e6c9d7a-8003-4052-87bc-87ecb2734adf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_director
+    - node.type.director
+    - node.type.movie
+id: node.movie.field_director
+field_name: field_director
+entity_type: node
+bundle: movie
+label: Director
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      director: director
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

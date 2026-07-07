@@ -1,0 +1,23 @@
+uuid: d03057a2-86d8-493f-be5f-f6645649ede4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_director_birth_year
+    - node.type.director
+id: node.director.field_director_birth_year
+field_name: field_director_birth_year
+entity_type: node
+bundle: director
+label: 'Birth Year'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1000
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

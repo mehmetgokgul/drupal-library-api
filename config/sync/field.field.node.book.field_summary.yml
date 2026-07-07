@@ -1,0 +1,22 @@
+uuid: 602df917-163f-4c97-a344-fbc825b73442
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_summary
+    - node.type.book
+  module:
+    - text
+id: node.book.field_summary
+field_name: field_summary
+entity_type: node
+bundle: book
+label: Summary
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long
