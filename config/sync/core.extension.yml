@@ -18,6 +18,10 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  graphql: 0
+  graphql_compose: 0
+  graphql_core_schema: 0
+  graphql_extra_cache: 0
   help: 0
   image: 0
   layout_builder: 0
@@ -35,6 +39,7 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  typed_data: 0
   update: 0
   user: 0
   views_ui: 0

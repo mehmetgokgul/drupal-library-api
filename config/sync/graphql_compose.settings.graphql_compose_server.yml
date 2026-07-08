@@ -1,0 +1,33 @@
+_core:
+  default_config_hash: _HhA1FOWwjz1siXeaMncMoIk-pKskQwXV6V4g8jh59s
+entity_config:
+  node:
+    author:
+      enabled: true
+      query_load_enabled: true
+    book:
+      enabled: true
+      query_load_enabled: true
+    director:
+      enabled: true
+      query_load_enabled: true
+    movie:
+      enabled: true
+      query_load_enabled: true
+field_config: {  }
+settings:
+  exclude_unpublished: true
+  expose_entity_ids: false
+  field_required_override: false
+  schema_description: 'GraphQL Compose'
+  schema_version: '1'
+  simple_queries: true
+  simple_unions: true
+  site_403: false
+  site_404: false
+  site_mail: false
+  site_name: false
+  site_slogan: false
+  site_front: true
+  inflector_langcode: en
+  inflector_singularize: true
