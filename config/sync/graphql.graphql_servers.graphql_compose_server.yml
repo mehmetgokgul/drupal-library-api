@@ -16,5 +16,6 @@ query_depth: 0
 query_complexity: 0
 schema_configuration:
   graphql_compose:
-    providers: {  }
+    providers:
+      graphql_compose: graphql_compose
 persisted_queries_settings: {  }
