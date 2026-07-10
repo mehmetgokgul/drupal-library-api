@@ -20,8 +20,6 @@ module:
   filter: 0
   graphql: 0
   graphql_compose: 0
-  graphql_core_schema: 0
-  graphql_extra_cache: 0
   help: 0
   image: 0
   layout_builder: 0

@@ -14,14 +14,57 @@ entity_config:
     movie:
       enabled: true
       query_load_enabled: true
-field_config: {  }
+  taxonomy_term:
+    genre:
+      enabled: true
+      query_load_enabled: true
+field_config:
+  node:
+    author:
+      field_biography:
+        enabled: true
+      field_birth_year:
+        enabled: true
+      field_photo:
+        enabled: true
+    book:
+      field_author:
+        enabled: true
+      field_cover_image:
+        enabled: true
+      field_genre:
+        enabled: true
+      field_publish_year:
+        enabled: true
+      field_summary:
+        enabled: true
+    director:
+      field_director_biography:
+        enabled: true
+      field_director_birth_year:
+        enabled: true
+      field_director_photo:
+        enabled: true
+    movie:
+      field_director:
+        enabled: true
+      field_duration:
+        enabled: true
+      field_movie_genre:
+        enabled: true
+      field_movie_summary:
+        enabled: true
+      field_poster_image:
+        enabled: true
+      field_release_year:
+        enabled: true
 settings:
   exclude_unpublished: true
   expose_entity_ids: false
   field_required_override: false
   schema_description: 'GraphQL Compose'
   schema_version: '1'
-  simple_queries: true
+  simple_queries: false
   simple_unions: true
   site_403: false
   site_404: false
