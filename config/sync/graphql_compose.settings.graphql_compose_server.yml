@@ -5,15 +5,19 @@ entity_config:
     author:
       enabled: true
       query_load_enabled: true
+      edges_enabled: true
     book:
       enabled: true
       query_load_enabled: true
+      edges_enabled: true
     director:
       enabled: true
       query_load_enabled: true
+      edges_enabled: true
     movie:
       enabled: true
       query_load_enabled: true
+      edges_enabled: true
   taxonomy_term:
     genre:
       enabled: true
