@@ -9,6 +9,7 @@ use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
 use Drupal\library_graphql\Field\ComputedBooksFieldItemList;
+use Drupal\library_graphql\Field\ComputedMoviesFieldItemList;
 
 /**
  * Implements hook_entity_bundle_field_info().
@@ -27,6 +28,16 @@ function library_graphql_entity_bundle_field_info(EntityTypeInterface $entity_ty
       ->setCardinality(FieldStorageDefinitionInterface::CARDINALITY_UNLIMITED)
       ->setComputed(TRUE)
       ->setClass(ComputedBooksFieldItemList::class)
+      ->setReadOnly(TRUE);
+  }
+  if ($entity_type->id() === 'node' && $bundle === 'director') {
+    $fields['movies'] = BaseFieldDefinition::create('entity_reference')
+      ->setLabel(t('Movies'))
+      ->setDescription(t('Movie filmed by this director (computed reverse reference).'))
+      ->setSetting('target_type', 'node')
+      ->setCardinality(FieldStorageDefinitionInterface::CARDINALITY_UNLIMITED)
+      ->setComputed(TRUE)
+      ->setClass(ComputedMoviesFieldItemList::class)
       ->setReadOnly(TRUE);
   }
 
