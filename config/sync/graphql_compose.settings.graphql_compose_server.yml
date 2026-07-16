@@ -31,6 +31,8 @@ field_config:
         enabled: true
       field_photo:
         enabled: true
+      books:
+        enabled: true
     book:
       field_author:
         enabled: true

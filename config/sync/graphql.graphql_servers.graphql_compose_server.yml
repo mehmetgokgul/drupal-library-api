@@ -19,4 +19,5 @@ schema_configuration:
     providers:
       graphql_compose: graphql_compose
       graphql_compose_edges: graphql_compose_edges
+      library_graphql: library_graphql
 persisted_queries_settings: {  }

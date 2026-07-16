@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * @file
+ * Contains hooks for the Library GraphQL Extras module.
+ */
+
+use Drupal\Core\Entity\EntityTypeInterface;
+use Drupal\Core\Field\BaseFieldDefinition;
+use Drupal\Core\Field\FieldStorageDefinitionInterface;
+use Drupal\library_graphql\Field\ComputedBooksFieldItemList;
+
+/**
+ * Implements hook_entity_bundle_field_info().
+ *
+ * Adds a computed 'books' field to the Author bundle: all Book
+ * nodes whose field_author points to this author.
+ */
+function library_graphql_entity_bundle_field_info(EntityTypeInterface $entity_type, $bundle, array $base_field_definitions) {
+  $fields = [];
+
+  if ($entity_type->id() === 'node' && $bundle === 'author') {
+    $fields['books'] = BaseFieldDefinition::create('entity_reference')
+      ->setLabel(t('Books'))
+      ->setDescription(t('Books written by this author (computed reverse reference).'))
+      ->setSetting('target_type', 'node')
+      ->setCardinality(FieldStorageDefinitionInterface::CARDINALITY_UNLIMITED)
+      ->setComputed(TRUE)
+      ->setClass(ComputedBooksFieldItemList::class)
+      ->setReadOnly(TRUE);
+  }
+
+  return $fields;
+}
