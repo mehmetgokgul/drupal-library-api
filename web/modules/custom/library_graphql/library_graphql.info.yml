@@ -1,0 +1,7 @@
+name: Library GraphQL Extras
+type: module
+description: 'Custom GraphQL Compose extensions and content ingestion for the library project.'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - graphql_compose:graphql_compose
