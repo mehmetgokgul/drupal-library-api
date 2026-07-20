@@ -1,0 +1,6 @@
+extend type Mutation {
+  """
+  Create a new Book. Requires the "create book content" permission.
+  """
+  createBook(data: BookInput!): BookResponse
+}

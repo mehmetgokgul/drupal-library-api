@@ -1,0 +1,21 @@
+scalar Violation
+
+"""
+Input values for creating a new Book.
+"""
+input BookInput {
+  title: String!
+  authorId: String!
+  genre: [String!]
+  publishYear: Int!
+  summary: String
+}
+
+"""
+Result of a Book mutation: the created Book, or a list of
+permission/validation errors if it could not be created.
+"""
+type BookResponse {
+  errors: [Violation]
+  book: NodeBook
+}
