@@ -1,0 +1,4 @@
+services:
+  library_graphql.node_by_name_resolver:
+    class: Drupal\library_graphql\Ingest\NodeByNameResolver
+    arguments: ['@entity_type.manager']
