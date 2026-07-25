@@ -1,0 +1,168 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Dune",
+      "author_name": "Frank Herbert",
+      "first_publish_year": 1965,
+      "genre": "bilim-kurgu",
+      "cover_url": "https://covers.openlibrary.org/b/id/8259447-L.jpg",
+      "summary": "Çöl gezegeni Arrakis'te geçen, güç mücadelesi ve baharat üzerine kurulu epik bir bilim kurgu klasiği."
+    },
+    {
+      "id": 2,
+      "title": "Suç ve Ceza",
+      "author_name": "Fyodor Dostoyevski",
+      "first_publish_year": 1866,
+      "genre": "kurgu",
+      "cover_url": "https://covers.openlibrary.org/b/id/8235116-L.jpg",
+      "summary": "Bir öğrencinin işlediği cinayet sonrası yaşadığı vicdan azabını konu alan psikolojik roman."
+    },
+    {
+      "id": 3,
+      "title": "Sapiens: İnsan Türünün Kısa Bir Tarihi",
+      "author_name": "Yuval Noah Harari",
+      "first_publish_year": 2011,
+      "genre": "tarih",
+      "cover_url": "https://covers.openlibrary.org/b/id/8348234-L.jpg",
+      "summary": "İnsanlık tarihini bilişsel, tarımsal ve bilimsel devrimler ekseninde inceleyen popüler bilim kitabı."
+    },
+    {
+      "id": 4,
+      "title": "Steve Jobs",
+      "author_name": "Walter Isaacson",
+      "first_publish_year": 2011,
+      "genre": "biyografi",
+      "cover_url": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
+      "summary": "Apple'ın kurucusu Steve Jobs'un yetkilendirilmiş biyografisi."
+    },
+    {
+      "id": 5,
+      "title": "Fahrenheit 451",
+      "author_name": "Ray Bradbury",
+      "first_publish_year": 1953,
+      "genre": "bilim-kurgu",
+      "cover_url": "https://covers.openlibrary.org/b/id/8236234-L.jpg",
+      "summary": "Kitapların yasak olduğu, distopik bir gelecekte geçen klasik bir bilim kurgu romanı."
+    },
+    {
+      "id": 6,
+      "title": "Şeker Portakalı",
+      "author_name": "José Mauro de Vasconcelos",
+      "first_publish_year": 1968,
+      "genre": "kurgu",
+      "cover_url": "https://covers.openlibrary.org/b/id/8231856-L.jpg",
+      "summary": "Fakir bir ailenin küçük çocuğu Zezé'nin büyüme sürecini anlatan duygusal bir roman."
+    },
+    {
+      "id": 7,
+      "title": "Kozmos",
+      "author_name": "Carl Sagan",
+      "first_publish_year": 1980,
+      "genre": "bilim-kurgu",
+      "cover_url": "https://covers.openlibrary.org/b/id/8264456-L.jpg",
+      "summary": "Evreni, bilimi ve insanlığın evrendeki yerini konu alan popüler bilim kitabı."
+    },
+    {
+      "id": 8,
+      "title": "Bilinmeyen Bir Kadının Mektubu",
+      "author_name": "Stefan Zweig",
+      "first_publish_year": 1922,
+      "genre": "kurgu",
+      "cover_url": "https://covers.openlibrary.org/b/id/8228765-L.jpg",
+      "summary": "Karşılıksız bir aşkın yıllar içindeki izini süren kısa ama etkileyici bir novella.",
+      "malformed": true
+    },
+    {
+      "id": 9,
+      "title": "",
+      "author_name": null,
+      "first_publish_year": "bilinmiyor",
+      "genre": "belirsiz",
+      "cover_url": null,
+      "summary": null
+    },
+    {
+      "id": 10,
+      "title": "Nutuk",
+      "author_name": "Mustafa Kemal Atatürk",
+      "first_publish_year": 1927,
+      "genre": "tarih",
+      "cover_url": "https://covers.openlibrary.org/b/id/8241234-L.jpg",
+      "summary": "Türkiye Cumhuriyeti'nin kuruluş sürecini anlatan tarihi bir söylev metni."
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Yıldızlararası",
+      "director_name": "Christopher Nolan",
+      "release_year": 2014,
+      "genre": "bilim-kurgu",
+      "duration_minutes": 169,
+      "poster_url": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "summary": "Dünyanın yaşanamaz hale geldiği bir gelecekte, insanlık için yeni bir yaşam alanı arayan astronotların hikayesi."
+    },
+    {
+      "id": 2,
+      "title": "Baba",
+      "director_name": "Francis Ford Coppola",
+      "release_year": 1972,
+      "genre": "suç",
+      "duration_minutes": 175,
+      "poster_url": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "summary": "Corleone ailesinin New York yeraltı dünyasındaki güç mücadelesini konu alan klasik bir mafya filmi."
+    },
+    {
+      "id": 3,
+      "title": "Yeşil Yol",
+      "director_name": "Frank Darabont",
+      "release_year": 1999,
+      "genre": "drama",
+      "duration_minutes": 189,
+      "poster_url": "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg",
+      "summary": "1930'larda bir hapishanede geçen, olağanüstü güçlere sahip bir mahkumun hikayesini anlatan dramatik film."
+    },
+    {
+      "id": 4,
+      "title": "Amelie",
+      "director_name": "Jean-Pierre Jeunet",
+      "release_year": 2001,
+      "genre": "komedi",
+      "duration_minutes": 122,
+      "poster_url": "https://image.tmdb.org/t/p/w500/oDUuOMDQ0aTr7iQOFhZ5s3P8Iyu.jpg",
+      "summary": "Paris'te yaşayan hayalperest bir kadının, çevresindeki insanların hayatına gizlice dokunma çabası."
+    },
+    {
+      "id": 5,
+      "title": "Yedi",
+      "director_name": "David Fincher",
+      "release_year": 1995,
+      "genre": "suç",
+      "duration_minutes": 127,
+      "poster_url": "https://image.tmdb.org/t/p/w500/191nnKfMg2vHMuU8FZ0Q0j09lPl.jpg",
+      "summary": "Yedi ölümcül günahı temel alan cinayetleri araştıran iki dedektifin hikayesi."
+    },
+    {
+      "id": 6,
+      "title": "Kovboylara Karşı Uzaylılar",
+      "director_name": "",
+      "release_year": "bilinmiyor",
+      "genre": "belirsiz",
+      "duration_minutes": null,
+      "poster_url": null,
+      "summary": null
+    },
+    {
+      "id": 7,
+      "title": "Uçurtma Avcısı",
+      "director_name": "Marc Forster",
+      "release_year": 2007,
+      "genre": "drama",
+      "duration_minutes": 128,
+      "poster_url": "https://image.tmdb.org/t/p/w500/qJlrK2wjbG8FUqPQBmkUZ6VGmyc.jpg",
+      "summary": "Afganistan'da geçen, çocukluk arkadaşlığı ve pişmanlık temalı duygusal bir uyarlama.",
+      "extra_field_test": true
+    }
+  ]
+}
